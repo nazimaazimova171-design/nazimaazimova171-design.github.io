@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f8fc">
+  <meta name="description" content="Nazima is a first-year IT student at Inha University in Tashkent.">
+  <title>Nazima — IT Student</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Nazima home"><span class="brand-mark">N</span><span>Nazima</span></a>
+      <div class="nav-links">
+        <a href="#about">About</a><a href="#courses">Courses</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+      </div>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch theme"><span class="theme-icon" aria-hidden="true">☾</span><span class="theme-label">Dark mode</span></button>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> First-year IT student · Tashkent, Uzbekistan</p>
+        <h1 id="hero-title">Hi, I’m Nazima.<br><span>Curious about technology.</span></h1>
+        <p class="hero-intro">I’m a first-year IT student at Inha University in Tashkent, interested in programming, volleyball, and traveling.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#courses">See what I’m learning <span aria-hidden="true">↗</span></a><a class="text-link" href="#about">A little about me <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-meta"><span>01 <i></i> Learn</span><span>02 <i></i> Explore</span><span>03 <i></i> Grow</span></div>
+      </div>
+      <div class="hero-art" aria-label="Abstract blue geometric illustration" role="img">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div><div class="art-square"></div>
+        <div class="art-card"><span class="code-label">CURRENTLY LEARNING</span><span class="code-line"><b>01</b> &lt;ideas /&gt;</span><span class="code-line"><b>02</b> problem.solve()</span><span class="code-line"><b>03</b> hello, world!</span><span class="cursor">▍</span></div>
+        <span class="art-tag tag-one">curiosity()</span><span class="art-tag tag-two">0101&nbsp; 1100</span>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading"><p class="eyebrow">About me</p><h2>Learning one idea<br>at a time.</h2></div>
+      <div class="about-content"><p class="about-lead">I’m Nazima, a first-year IT student at Inha University in Tashkent.</p><p>I’m interested in programming and enjoy spending time on volleyball and traveling. I’m looking forward to learning more about information technology throughout my studies.</p><div class="about-facts"><div><span class="fact-number">01</span><span>Year of study</span><strong>First year</strong></div><div><span class="fact-number">02</span><span>University</span><strong>Inha University</strong></div><div><span class="fact-number">03</span><span>Interests</span><strong>Programming · Volleyball · Travel</strong></div></div></div>
+    </section>
+
+    <section class="section courses-section" id="courses"><div class="container"><div class="section-top"><div class="section-heading"><p class="eyebrow">First-year studies</p><h2>My courses<span class="blue-period">.</span></h2></div><p class="section-note">The subjects I’m studying in my first year at Inha University in Tashkent.</p></div>
+      <div class="course-grid">
+        <article class="course-card"><span class="course-index">01</span><h3>Academic English</h3><span class="course-symbol">Aa</span></article>
+        <article class="course-card"><span class="course-index">02</span><h3>Academic English Reading</h3><span class="course-symbol">Ab</span></article>
+        <article class="course-card"><span class="course-index">03</span><h3>Pre-Calculus</h3><span class="course-symbol">∑</span></article>
+        <article class="course-card"><span class="course-index">04</span><h3>Calculus 1</h3><span class="course-symbol">∫</span></article>
+        <article class="course-card"><span class="course-index">05</span><h3>Pre-Physics</h3><span class="course-symbol">φ</span></article>
+        <article class="course-card"><span class="course-index">06</span><h3>Physics 1</h3><span class="course-symbol">λ</span></article>
+        <article class="course-card"><span class="course-index">07</span><h3>Physics Experiment 1</h3><span class="course-symbol">Δ</span></article>
+        <article class="course-card"><span class="course-index">08</span><h3>Object Oriented Programming 1</h3><span class="course-symbol">{ }</span></article>
+        <article class="course-card"><span class="course-index">09</span><h3>Introduction to IT</h3><span class="course-symbol">01</span></article>
+      </div>
+    </div></section>
+
+    <section class="section container" id="projects"><div class="section-top"><div class="section-heading"><p class="eyebrow">Projects</p><h2>Projects<span class="blue-period">.</span></h2></div><p class="section-note">A selection of my personal and coursework projects.</p></div>
+      <div class="project-list">
+        <article class="project-card"><div class="project-number">01</div><div class="project-info"><span class="project-type">WEB · PERSONAL</span><h3>Personal Homepage</h3><p>Creating a personal website with HTML, CSS, and JavaScript.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div><span class="project-arrow" aria-hidden="true">↗</span></article>
+        <article class="project-card"><div class="project-number">02</div><div class="project-info"><span class="project-type">PROGRAMMING · PYTHON</span><h3>Python Practice</h3><p>Small programs and exercises in Python.</p><div class="tags"><span>Python</span><span>Practice</span></div></div><span class="project-arrow" aria-hidden="true">↗</span></article>
+        <article class="project-card"><div class="project-number">03</div><div class="project-info"><span class="project-type">COURSEWORK · C++</span><h3>C++ Coursework</h3><p>Coursework assignments covering C++, functions, loops, and object-oriented programming.</p><div class="tags"><span>C++</span><span>OOP</span></div></div><span class="project-arrow" aria-hidden="true">↗</span></article>
+        <article class="project-card"><div class="project-number">04</div><div class="project-info"><span class="project-type">NETWORKS · LAB</span><h3>Network Lab</h3><p>Practical work in computer networks using Wireshark, DNS, and traceroute.</p><div class="tags"><span>Wireshark</span><span>DNS</span><span>traceroute</span></div></div><span class="project-arrow" aria-hidden="true">↗</span></article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact"><div class="container contact-inner"><div><p class="eyebrow">Contact</p><h2>Let’s connect.</h2><p class="contact-copy">Feel free to get in touch by email.</p></div><a class="contact-link" href="mailto:n.azimova@student.inha.uz"><span>Email me</span><span aria-hidden="true">↗</span><small>n.azimova@student.inha.uz</small></a></div></section>
+  </main>
+  <footer class="footer container"><a class="brand" href="#home"><span class="brand-mark">N</span><span>Nazima</span></a><span>Inha University · Tashkent <span class="blue-period">✳</span></span><a href="#home" class="back-top">Back to top ↑</a></footer>
+</body>
+</html>
+
+

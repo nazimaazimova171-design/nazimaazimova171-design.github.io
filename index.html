@@ -3,71 +3,74 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f5f8fc">
-  <meta name="description" content="Nazima is a first-year IT student at Inha University in Tashkent.">
-  <title>Nazima — IT Student</title>
+  <meta name="theme-color" content="#f5f7fb">
+  <meta name="description" content="Pyagay Kirill, Computer Engineering student at INHA University in Tashkent.">
+  <title>Pyagay Kirill — Computer Engineering Student</title>
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <nav class="nav container" aria-label="Main navigation">
-      <a class="brand" href="#home" aria-label="Nazima home"><span class="brand-mark">N</span><span>Nazima</span></a>
-      <div class="nav-links">
+      <a class="brand" href="#home" aria-label="Pyagay Kirill, home"><span class="brand-mark">PK</span><span>Pyagay Kirill</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation"><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
         <a href="#about">About</a><a href="#courses">Courses</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
       </div>
       <button class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch theme"><span class="theme-icon" aria-hidden="true">☾</span><span class="theme-label">Dark mode</span></button>
     </nav>
   </header>
 
-  <main id="home">
-    <section class="hero container" aria-labelledby="hero-title">
+  <main id="main">
+    <section class="hero container" id="home" aria-labelledby="hero-title">
       <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot"></span> First-year IT student · Tashkent, Uzbekistan</p>
-        <h1 id="hero-title">Hi, I’m Nazima.<br><span>Curious about technology.</span></h1>
-        <p class="hero-intro">I’m a first-year IT student at Inha University in Tashkent, interested in programming, volleyball, and traveling.</p>
-        <div class="hero-actions"><a class="button button-primary" href="#courses">See what I’m learning <span aria-hidden="true">↗</span></a><a class="text-link" href="#about">A little about me <span aria-hidden="true">↓</span></a></div>
-        <div class="hero-meta"><span>01 <i></i> Learn</span><span>02 <i></i> Explore</span><span>03 <i></i> Grow</span></div>
+        <p class="eyebrow"><span class="status-dot"></span> Computer Engineering · Tashkent, Uzbekistan</p>
+        <h1 id="hero-title">Pyagay Kirill<span class="hero-period">.</span></h1>
+        <p class="hero-role">Computer Engineering Student<br>at INHA University</p>
+        <p class="hero-intro">Curious about how technology works and how thoughtful code can solve real problems. Currently building my programming and problem-solving skills, one project at a time.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore my projects <span aria-hidden="true">↗</span></a><a class="text-link" href="#about">Get to know me <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-meta"><span>01 <i></i> Learn</span><span>02 <i></i> Build</span><span>03 <i></i> Discover</span></div>
       </div>
-      <div class="hero-art" aria-label="Abstract blue geometric illustration" role="img">
+      <div class="hero-art" aria-label="Abstract illustration of ideas and code" role="img">
         <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div><div class="art-square"></div>
-        <div class="art-card"><span class="code-label">CURRENTLY LEARNING</span><span class="code-line"><b>01</b> &lt;ideas /&gt;</span><span class="code-line"><b>02</b> problem.solve()</span><span class="code-line"><b>03</b> hello, world!</span><span class="cursor">▍</span></div>
+        <div class="art-card"><span class="code-label">CURRENTLY EXPLORING</span><span class="code-line"><b>01</b> computer.science</span><span class="code-line"><b>02</b> ideas → code</span><span class="code-line"><b>03</b> keep.learning()</span><span class="cursor">▍</span></div>
         <span class="art-tag tag-one">curiosity()</span><span class="art-tag tag-two">0101&nbsp; 1100</span>
       </div>
     </section>
 
-    <section class="section container" id="about">
-      <div class="section-heading"><p class="eyebrow">About me</p><h2>Learning one idea<br>at a time.</h2></div>
-      <div class="about-content"><p class="about-lead">I’m Nazima, a first-year IT student at Inha University in Tashkent.</p><p>I’m interested in programming and enjoy spending time on volleyball and traveling. I’m looking forward to learning more about information technology throughout my studies.</p><div class="about-facts"><div><span class="fact-number">01</span><span>Year of study</span><strong>First year</strong></div><div><span class="fact-number">02</span><span>University</span><strong>Inha University</strong></div><div><span class="fact-number">03</span><span>Interests</span><strong>Programming · Volleyball · Travel</strong></div></div></div>
+    <section class="section container about-section" id="about" aria-labelledby="about-title">
+      <div class="section-heading"><p class="eyebrow">A little about me</p><h2 id="about-title">Building a strong<br>foundation.</h2></div>
+      <div class="about-content"><p class="about-lead">I’m a first-year Computer Engineering student at INHA University in Tashkent.</p><p>I’m interested in programming, computer science, and the ways technology shapes everyday life. Outside my technical interests, music is an important part of what inspires me. Right now, I’m focused on strengthening my programming fundamentals and becoming a better problem solver.</p><div class="about-facts"><div><span class="fact-number">01</span><span>Study</span><strong>Computer Engineering</strong></div><div><span class="fact-number">02</span><span>University</span><strong>INHA University</strong></div><div><span class="fact-number">03</span><span>Interests</span><strong>Code · Technology · Music</strong></div></div></div>
     </section>
 
-    <section class="section courses-section" id="courses"><div class="container"><div class="section-top"><div class="section-heading"><p class="eyebrow">First-year studies</p><h2>My courses<span class="blue-period">.</span></h2></div><p class="section-note">The subjects I’m studying in my first year at Inha University in Tashkent.</p></div>
+    <section class="section courses-section" id="courses" aria-labelledby="courses-title"><div class="container"><div class="section-top"><div class="section-heading"><p class="eyebrow">What I’m learning</p><h2 id="courses-title">My courses<span class="blue-period">.</span></h2></div><p class="section-note">A mix of technical foundations, core sciences, communication, and music.</p></div>
       <div class="course-grid">
-        <article class="course-card"><span class="course-index">01</span><h3>Academic English</h3><span class="course-symbol">Aa</span></article>
-        <article class="course-card"><span class="course-index">02</span><h3>Academic English Reading</h3><span class="course-symbol">Ab</span></article>
-        <article class="course-card"><span class="course-index">03</span><h3>Pre-Calculus</h3><span class="course-symbol">∑</span></article>
-        <article class="course-card"><span class="course-index">04</span><h3>Calculus 1</h3><span class="course-symbol">∫</span></article>
-        <article class="course-card"><span class="course-index">05</span><h3>Pre-Physics</h3><span class="course-symbol">φ</span></article>
-        <article class="course-card"><span class="course-index">06</span><h3>Physics 1</h3><span class="course-symbol">λ</span></article>
-        <article class="course-card"><span class="course-index">07</span><h3>Physics Experiment 1</h3><span class="course-symbol">Δ</span></article>
-        <article class="course-card"><span class="course-index">08</span><h3>Object Oriented Programming 1</h3><span class="course-symbol">{ }</span></article>
-        <article class="course-card"><span class="course-index">09</span><h3>Introduction to IT</h3><span class="course-symbol">01</span></article>
+        <article class="course-card"><span class="course-index">01 / TECHNOLOGY</span><span class="course-symbol" aria-hidden="true">01</span><h3>Introduction to IT</h3><p>Exploring the foundations of information technology.</p></article>
+        <article class="course-card"><span class="course-index">02 / PROGRAMMING</span><span class="course-symbol" aria-hidden="true">{ }</span><h3>Programming (OOP)</h3><p>Learning object-oriented programming and core coding concepts.</p></article>
+        <article class="course-card"><span class="course-index">03 / MATHEMATICS</span><span class="course-symbol" aria-hidden="true">∫</span><h3>Calculus</h3><p>Building mathematical tools for engineering and computing.</p></article>
+        <article class="course-card"><span class="course-index">04 / SCIENCE</span><span class="course-symbol" aria-hidden="true">λ</span><h3>Physics</h3><p>Studying the physical principles behind the world around us.</p></article>
+        <article class="course-card"><span class="course-index">05 / COMMUNICATION</span><span class="course-symbol" aria-hidden="true">Aa</span><h3>Academic English</h3><p>Developing clear, confident academic communication.</p></article>
+        <article class="course-card"><span class="course-index">06 / MUSIC</span><span class="course-symbol" aria-hidden="true">♪</span><h3>Music club · piano</h3><p>Making time for music and developing piano skills.</p></article>
       </div>
     </div></section>
 
-    <section class="section container" id="projects"><div class="section-top"><div class="section-heading"><p class="eyebrow">Projects</p><h2>Projects<span class="blue-period">.</span></h2></div><p class="section-note">A selection of my personal and coursework projects.</p></div>
+    <section class="section container" id="projects" aria-labelledby="projects-title"><div class="section-top"><div class="section-heading"><p class="eyebrow">Selected coursework</p><h2 id="projects-title">Projects<span class="blue-period">.</span></h2></div><p class="section-note">A growing record of my OOP lab assignments. Details can be added as each project develops.</p></div>
       <div class="project-list">
-        <article class="project-card"><div class="project-number">01</div><div class="project-info"><span class="project-type">WEB · PERSONAL</span><h3>Personal Homepage</h3><p>Creating a personal website with HTML, CSS, and JavaScript.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div><span class="project-arrow" aria-hidden="true">↗</span></article>
-        <article class="project-card"><div class="project-number">02</div><div class="project-info"><span class="project-type">PROGRAMMING · PYTHON</span><h3>Python Practice</h3><p>Small programs and exercises in Python.</p><div class="tags"><span>Python</span><span>Practice</span></div></div><span class="project-arrow" aria-hidden="true">↗</span></article>
-        <article class="project-card"><div class="project-number">03</div><div class="project-info"><span class="project-type">COURSEWORK · C++</span><h3>C++ Coursework</h3><p>Coursework assignments covering C++, functions, loops, and object-oriented programming.</p><div class="tags"><span>C++</span><span>OOP</span></div></div><span class="project-arrow" aria-hidden="true">↗</span></article>
-        <article class="project-card"><div class="project-number">04</div><div class="project-info"><span class="project-type">NETWORKS · LAB</span><h3>Network Lab</h3><p>Practical work in computer networks using Wireshark, DNS, and traceroute.</p><div class="tags"><span>Wireshark</span><span>DNS</span><span>traceroute</span></div></div><span class="project-arrow" aria-hidden="true">↗</span></article>
+        <!-- Duplicate a project-card article to add another assignment. -->
+        <article class="project-card"><div class="project-number">01</div><div class="project-info"><span class="project-type">OOP · LAB ASSIGNMENT</span><h3>OOP Lab Assignment 1</h3><p>Project details to be added.</p></div><span class="project-arrow" aria-hidden="true">↗</span></article>
+        <article class="project-card"><div class="project-number">02</div><div class="project-info"><span class="project-type">OOP · LAB ASSIGNMENT</span><h3>OOP Lab Assignment 2</h3><p>Project details to be added.</p></div><span class="project-arrow" aria-hidden="true">↗</span></article>
+        <article class="project-card"><div class="project-number">03</div><div class="project-info"><span class="project-type">OOP · LAB ASSIGNMENT</span><h3>OOP Lab Assignment 3</h3><p>Project details to be added.</p></div><span class="project-arrow" aria-hidden="true">↗</span></article>
+        <article class="project-card"><div class="project-number">04</div><div class="project-info"><span class="project-type">OOP · LAB ASSIGNMENT</span><h3>OOP Lab Assignment 4</h3><p>Project details to be added.</p></div><span class="project-arrow" aria-hidden="true">↗</span></article>
+        <article class="project-card"><div class="project-number">05</div><div class="project-info"><span class="project-type">OOP · LAB ASSIGNMENT</span><h3>OOP Lab Assignment 5</h3><p>Project details to be added.</p></div><span class="project-arrow" aria-hidden="true">↗</span></article>
+        <article class="project-card"><div class="project-number">06</div><div class="project-info"><span class="project-type">OOP · LAB ASSIGNMENT</span><h3>OOP Lab Assignment 6</h3><p>Project details to be added.</p></div><span class="project-arrow" aria-hidden="true">↗</span></article>
+        <article class="project-card"><div class="project-number">07</div><div class="project-info"><span class="project-type">OOP · LAB ASSIGNMENT</span><h3>OOP Lab Assignment 7</h3><p>Project details to be added.</p></div><span class="project-arrow" aria-hidden="true">↗</span></article>
+        <article class="project-card"><div class="project-number">08</div><div class="project-info"><span class="project-type">OOP · LAB ASSIGNMENT</span><h3>OOP Lab Assignment 8</h3><p>Project details to be added.</p></div><span class="project-arrow" aria-hidden="true">↗</span></article>
       </div>
     </section>
 
-    <section class="contact-section" id="contact"><div class="container contact-inner"><div><p class="eyebrow">Contact</p><h2>Let’s connect.</h2><p class="contact-copy">Feel free to get in touch by email.</p></div><a class="contact-link" href="mailto:n.azimova@student.inha.uz"><span>Email me</span><span aria-hidden="true">↗</span><small>n.azimova@student.inha.uz</small></a></div></section>
+    <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="container contact-inner"><div><p class="eyebrow">Contact</p><h2 id="contact-title">Let’s connect.</h2><p class="contact-copy">Have a question or want to talk about technology, code, or music? Find me here.</p></div><div class="contact-links"><a class="contact-link" href="mailto:your.email@example.com"><span>Email</span><span aria-hidden="true">↗</span><small>your.email@example.com</small></a><a class="contact-link" href="https://github.com/your-username" target="_blank" rel="noopener noreferrer"><span>GitHub</span><span aria-hidden="true">↗</span><small>github.com/your-username</small></a><a class="contact-link" href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><span aria-hidden="true">↗</span><small>linkedin.com/in/your-profile</small></a></div></div></section>
   </main>
-  <footer class="footer container"><a class="brand" href="#home"><span class="brand-mark">N</span><span>Nazima</span></a><span>Inha University · Tashkent <span class="blue-period">✳</span></span><a href="#home" class="back-top">Back to top ↑</a></footer>
+  <footer class="footer container"><a class="brand" href="#home"><span class="brand-mark">PK</span><span>Pyagay Kirill</span></a><span>Computer Engineering · Tashkent</span><a href="#home" class="back-top">Back to top ↑</a></footer>
 </body>
 </html>
-
-
